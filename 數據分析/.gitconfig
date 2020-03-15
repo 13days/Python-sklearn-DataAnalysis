@@ -1,0 +1,12 @@
+[winUpdater]
+	recentlySeenVersion = 2.19.1.windows.1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[uesr]
+	name = 13days
+[user]
+	email = 570442340@qq.com
+	name = WuChuPeng

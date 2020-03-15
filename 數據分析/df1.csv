@@ -1,0 +1,14 @@
+Format,Type,Data,Description,Reader,Writer
+text,CSV,read_csv,to_csv,,
+text,JSON,read_json,to_json,,
+text,HTML,read_html,to_html,,
+text,Local,clipboard,read_clipboard,to_clipboard,
+binary,MS,Excel,read_excel,to_excel,
+binary,HDF5,Format,read_hdf,to_hdf,
+binary,Feather,Format,read_feather,to_feather,
+binary,Msgpack,read_msgpack,to_msgpack,,
+binary,Stata,read_stata,to_stata,,
+binary,SAS,read_sas,,,
+binary,Python,Pickle,Format,read_pickle,to_pickle
+SQL,SQL,read_sql,to_sql,,
+SQL,Google,Big,Query,read_gbq,to_gbq
